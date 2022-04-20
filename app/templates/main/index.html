@@ -1,0 +1,94 @@
+{%extends "base.html"%}
+{%block title%}Svensktillverkade möbler{%endblock%}
+{%block content%}
+<section id="hem" class="wrapper">
+    <div class="home-products content">
+        <div class="home-product" id="home-product-1">
+            <div class="home-product-image">
+            <img src="{{url_for('static', filename='img/products/ck.jpg')}}" alt="ck" width="auto" height="700px">
+            </div>
+            <div class="home-product-info">
+                <h1>Level Circle Ek</h1>
+                <p>
+                    Runt soffbord i vitlack och träfanér med förvaringsutrymme mellan
+                    skrivorna.
+                </p>
+                <h3>Material</h3>
+                <p>
+                    MDF medvitlackerad toppskiva och träfanér på undre skivan. Kromade
+                    stålben.
+                </p>
+                <h3>Utförande</h3>
+                <p>Helvit eller vit med ek, valnöt, svart poppel eller svart rot.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="om-kant" class="wrapper">
+    <div class="info content">
+        <div class="info-text">
+            <h1>Om kant</h1>
+            <p>Kant Design drivs av Peter Björck och är ett företag med säte i Skanör/Falsterbo, som designar,
+                tillverkar och marknadsför möbler för olika sammanhang - såväl hemmet som offentliga miljöer. Med fokus
+                på funktionell design och hög kvalitet skapar Kant stilrena och unika möbler till konkurrenskraftiga
+                priser. Produkter designade av Kant består av noga utvalda material och produktionen sker hos svenska
+                möbeltillverkare - allt för att uppnå högsta kvalitet. </p>
+        </div>
+        <div class="info-img">
+            <img src="{{url_for('static', filename='img/peter.jpg')}}" alt="Peter" width="auto" height="340px">
+            <img src="{{url_for('static', filename='img/peter2.jpg')}}" alt="Peter2" width="auto" height="340px">
+            <img src="{{url_for('static', filename='img/products/ck.jpg')}}" alt="bord" width="auto" height="340px">
+        </div>
+    </div>
+</section>
+<section id="kontakt" class="wrapper">
+    <div class="kontakt content">
+        <h1 class="info-title">Kontaktinfo</h1>
+        <div class="kontakt-info">
+            <div class="card">
+                <div class="icon"><span class="fa fa-map-marker"></span></div>
+                <div class="card-text">
+                    <h3>Address</h3>
+                    <p>Hedevägen 2 <br> 239 34 Skanör</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon"><span class="fa fa-phone"></span></div>
+                <div class="card-text">
+                    <h3>Telefon</h3>
+                    <p>+46 (0)708 91 93 20</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon"><span class="fa fa-paper-plane"></span></div>
+                <div class="card-text">
+                    <h3>Email</h3>
+                    <p>info@kant.se</p>
+                </div>
+            </div>
+        </div>
+        <h1 class="form-title">Hör av dig</h1>
+        <div class="kontakt-form">
+            <form action="info@kant.se" method="POST" enctype="multipart/form-data" name="EmailForm">
+                <div class="name">
+                    <label for="name">Namn</label>
+                    <input type="text" name="name" id="name" placeholder="Namn">
+                </div>
+                <div class="email">
+                    <label for="email">Email address</label>
+                    <input type="email" name="email" id="email" placeholder="Email">
+                </div>
+                <div class="subject">
+                    <label for="subject">Ämne</label>
+                    <input type="text" name="subject" id="subject" placeholder="Ämne">
+                </div>
+                <div class="textarea">
+                    <label for="message">Meddelande</label>
+                    <textarea name="message" id="message" cols="30" rows="4" placeholder="Meddelande"></textarea>
+                </div>
+                <input type="submit" value="Submit" id="submit">
+            </form>
+        </div>
+    </div>
+</section>
+{%endblock%}

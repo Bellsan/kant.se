@@ -1,0 +1,150 @@
+{
+    "products": [
+        {
+            "name": "Level Circle Ek",
+            "images": ["img/products/ck.jpg"],
+            "description": "Runt soffbord i vitlack och träfanér med förvaringsutrymme mellan skrivorna.",
+            "material": "MDF medvitlackerad toppskiva och träfanér på undre skivan. Kromade stålben.",
+            "execution": "Helvit eller vit med ek, valnöt, svart poppel eller svart rot.",
+            "dimensions": {
+                "diameter": ["97.5"],
+                "length": [],
+                "width": [],
+                "height": ["43", "49"]
+            }
+
+        },
+        {
+            "name": "Level Ellipse Svart Rot",
+            "images": ["img/products/Level-Ellipse_Soffbord_svartrot_1.jpg", "img/products/Level-Ellipse_Soffbord_svartrot-closeup.jpg"],
+            "description": "Ellipsformat soffbord i vitlack och träfanér med förvaringsutrymme mellan skivorna.",
+            "material": "MDF med vitlackerad toppskiva och träfanér på undre skivan. Kromade stålben.",
+            "execution": "Vit med ek, valnöt, svart poppel eller svart rot.",
+            "dimensions": {
+                "diameter": [],
+                "length": ["120", "150"],
+                "width": ["60", "70"],
+                "height": ["43", "49"]
+            }
+
+        },
+        {
+            "name": "Level Iron 3",
+            "images": ["img/products/Level-Iron-3-Soffbord.jpg", "img/products/Level-Iron-3-Soffbord-closeup.jpg"],
+            "description": "Strykjärnsformat soffbord med förvaringsutrymme mellan skivorna.",
+            "material": "MDF med vitlackerad toppskiva och träfanér på undre skivan. Kromade stålben.",
+            "execution": "Vit med träfanér svart poppel.",
+            "dimensions": {
+                "diameter": [],
+                "length": ["130"],
+                "width": ["90"],
+                "height": ["43", "49"]
+            }
+
+        },
+        {
+            "name": "Level Ellipse Ek",
+            "images": ["img/products/Level-Ellipse Soffbord_ek.jpg", "img/products/Level-Ellipse Soffbord_ek-closeup.jpg"],
+            "description": "Ellipsformat soffbord i vitlack och träfanér med förvaringsutrymme mellan skivorna. ",
+            "material": "MDF med vitlackerad toppskiva och träfanér på undre skivan. Kromade stålben.",
+            "execution": "Helvit eller vit med ek, valnöt, svart poppel eller svart rot.",
+            "dimensions": {
+                "diameter": [],
+                "length": ["120", "150"],
+                "width": ["60", "70"],
+                "height": ["43", "49"]
+            }
+        },
+        {
+            "name": "Level Circle Valnöt",
+            "images": ["img/products/Level-Circle-21.jpg", "img/products/Level-Ellipse Soffbord_valnot-closeup.jpg"],
+            "description": "Runt soffbord i vitlack och träfanér med förvaringsutrymme mellan skivorna.",
+            "material": "MDF medvitlackerad toppskiva och träfanér på undre skivan. Kromade stålben.",
+            "execution": "Helvit eller vit med ek, valnöt, svart poppel eller svart rot.",
+            "dimensions": {
+                "diameter": ["97.5"],
+                "length": [],
+                "width": [],
+                "height": ["43", "49"]
+            }
+        },
+        {
+            "name": "Level Circle Svart Rot",
+            "images": ["img/products/Level-Ellipse Soffbord_svartrot-closeup.jpg"],
+            "description": "Runt soffbord i vitlack och träfanér med förvaringsutrymme mellan skivorna.",
+            "material": "MDF medvitlackerad toppskiva och träfanér på undre skivan. Kromade stålben.",
+            "execution": "Helvit eller vit med ek, valnöt, svart poppel eller svart rot.",
+            "dimensions": {
+                "diameter": ["97.5"],
+                "length": [],
+                "width": [],
+                "height": ["43", "49"]
+            }
+        },
+        {
+            "name": "Level Circle Svart Poppel",
+            "images": ["img/products/Rund_level_vit_med_svart_poppel.jpg", "img/products/Level-Ellipse_Soffbord_svart-poppel-closeup.jpg"],
+            "description": "Runt soffbord i vitlack och träfanér med förvaringsutrymme mellan skrivorna.",
+            "material": "MDF medvitlackerad toppskiva och träfanér på undre skivan. Kromade stålben.",
+            "execution": "Helvit eller vit med ek, valnöt, svart poppel eller svart rot.",
+            "dimensions": {
+                "diameter": ["97.5"],
+                "length": [],
+                "width": [],
+                "height": ["43", "49"]
+            }
+        },
+        {
+            "name": "Level Ellipse Svart Poppel",
+            "images": ["img/products/atn1024_Level-Ellipse Soffbord_svart-poppel_web.jpg", "img/products/atn1024_Level-Ellipse Soffbord_svart-poppel-closeup_web.jpg"],
+            "description": "Ellipsformat soffbord i vitlack och träfanér med förvaringsutrymme mellan skivorna.",
+            "material": "MDF medvitlackerad toppskiva och träfanér på undre skivan. Kromade stålben.",
+            "execution": "Helvit eller vit med ek, valnöt, svart poppel eller svart rot.",
+            "dimensions": {
+                "diameter": [],
+                "length": ["120", "150"],
+                "width": ["60", "70"],
+                "height": ["43", "49"]
+            }
+        },
+        {
+            "name": "Level Ellipse Valnöt",
+            "images": ["img/products/atn1024_Level-Ellipse Soffbord_valnot_web.jpg", "img/products/atn1024_Level-Ellipse Soffbord_valnot-closeup_web.jpg"],
+            "description": "Ellipsformat soffbord i vitlack och träfanér med förvaringsutrymme mellan skivorna.",
+            "material": "MDF medvitlackerad toppskiva och träfanér på undre skivan. Kromade stålben.",
+            "execution": "Helvit eller vit med ek, valnöt, svart poppel eller svart rot.",
+            "dimensions": {
+                "diameter": [],
+                "length": ["120", "150"],
+                "width": ["60", "70"],
+                "height": ["43", "49"]
+            }
+        },
+        {
+            "name": "Level Ellipse S Svart",
+            "images": ["img/products/atn1024_Level-150-Ellipse-S-Soffbord IMG_0072_web.jpg", "img/products/atn1024_Level-150-Ellipse-S-Soffbord IMG_0100_web.jpg", "img/products/atn1024_Level-150-Ellipse-S-Soffbord IMG_0111_web.jpg"],
+            "description": "soffbord ellips med tålig yta och förvaringsutrymme mellan skivorna.",
+            "material": "Högtryckslaminat med kärna av björkplywood. Kromade stålben.",
+            "execution": "Vit/Vit Svart/Svart",
+            "dimensions": {
+                "diameter": [],
+                "length": ["150"],
+                "width": ["70"],
+                "height": ["43", "49"]
+            }
+        },
+        {
+            "name": "Pitch Matbord",
+            "images": ["img/products/atn1024_Pitch-Matbord-IMG_0133_web.jpg", "img/products/atn1024_Pitch-Matbord-IMG_0130_web.jpg", "img/products/atn1024_Pitch-Matbord-IMG_0127_web.jpg"],
+            "description": "Matbord med tålig yta och två iläggsskivor.",
+            "material": "MDF med vit högtryckslaminat på toppen. Massiva träben.",
+            "execution": "Vit topp med svart, vit eller ekfärgad bordskant. Massiva ben i ek, svartbetsad ek eller vitlack.",
+            "dimensions": {
+                "diameter": [],
+                "length": ["175", "235", "295"],
+                "width": ["100"],
+                "height": ["72"]
+            }
+        }
+    ]
+}

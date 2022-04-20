@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"> 
+    <link rel="shortcut icon" href="{{url_for('static', filename='img/favicon.png')}}" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    {% assets "main_styles" %}
+    <link href="{{ ASSET_URL }}" rel="stylesheet" type="text/css" />
+    {% endassets %}
+    {% assets 'main_js' %}
+    <script src="{{ ASSET_URL }}"></script>
+    {% endassets %}
+    <title>{%block title%}{%endblock%} - Kant Design</title>
+</head>
+
+<body>
+    <header>
+        <div class="img">
+            <img src="{{url_for('static', filename='img/logo.png')}}" alt="logo" id="logo" width="130px" height="auto">
+        </div>
+        <a href="#nav" class="nav-toggle"></a>
+        <nav id="nav">
+            <ul id="ul-nav">
+                <li><a href="{{url_for('main.home')}}#hem" data-id="hem">Hem</a></li>
+                <li><a href="{{url_for('main.home')}}#om-kant">Om Kant</a></li>
+                <li><a href="{{url_for('main.products')}}">Produkter</a></li>
+                <li><a href="{{url_for('main.home')}}#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    {%block content%}{%endblock%}
+</body>
+
+</html>

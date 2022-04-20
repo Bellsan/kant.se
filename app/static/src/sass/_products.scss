@@ -1,0 +1,28 @@
+.products {
+    display: grid;
+    padding: 5rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    width: min(100% - 2rem, 70rem);
+    margin-inline: auto;
+    overflow: hidden;
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    
+}
+
+.product {
+    background-color: white;
+    color: #555;
+    padding: .5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    h3 {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 870px) {
+    .products {
+        padding: 5rem 2rem 2rem 2rem;
+    }
+}
